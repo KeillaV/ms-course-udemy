@@ -41,6 +41,8 @@ public class WorkerServiceImpl implements WorkerService {
         if (!repository.existsById(id)) {
             throw new ResourceNotFoundException("worker", "id", id.toString());
         }
+
+        worker.setId(id);
         return repository.save(worker);
     }
 
