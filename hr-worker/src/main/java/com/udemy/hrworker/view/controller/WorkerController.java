@@ -1,7 +1,7 @@
-package com.udemy.hrworker.controller;
+package com.udemy.hrworker.view.controller;
 
 import com.udemy.hrworker.model.entity.Worker;
-import com.udemy.hrworker.model.service.WorkerServiceImpl;
+import com.udemy.hrworker.business.service.WorkerServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

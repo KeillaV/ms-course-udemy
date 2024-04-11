@@ -1,4 +1,4 @@
-package com.udemy.hrworker.model.service;
+package com.udemy.hrworker.business.service;
 
 import com.udemy.hrworker.model.entity.Worker;
 
