@@ -3,6 +3,6 @@ Além da implementação recomendada no curso, foram aplicados conhecimentos obt
 
 ## Tecnologias utilizadas:
 - Java 11
-- Spring Framework (Web, Data, Validation)
+- Spring Framework (Web, Data, Validation, Cloud)
 - Lombok
 - H2 Database
