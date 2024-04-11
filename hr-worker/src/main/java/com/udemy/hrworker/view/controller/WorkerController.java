@@ -3,6 +3,8 @@ package com.udemy.hrworker.view.controller;
 import com.udemy.hrworker.model.entity.Worker;
 import com.udemy.hrworker.business.service.WorkerServiceImpl;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,9 +15,11 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/workers")
 @AllArgsConstructor
+@Slf4j
 public class WorkerController {
 
     private WorkerServiceImpl service;
+    private Environment env;
 
     @GetMapping
     public ResponseEntity<List<Worker>> getAll() {
@@ -24,6 +28,7 @@ public class WorkerController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Worker> getById(@PathVariable Long id) {
+        log.info("PORT = " + env.getProperty("local.server.port"));
         return ResponseEntity.ok(service.getById(id));
     }
 
