@@ -6,3 +6,4 @@ Além da implementação recomendada no curso, foram aplicados conhecimentos obt
 - Spring Framework (Web, Data, Validation, Cloud)
 - Lombok
 - H2 Database
+- Ribbon Load Balancer
