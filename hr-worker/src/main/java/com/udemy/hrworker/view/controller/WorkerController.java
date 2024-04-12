@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/workers")
 @AllArgsConstructor
-@Slf4j
 public class WorkerController {
 
     private WorkerServiceImpl service;
@@ -28,7 +27,6 @@ public class WorkerController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Worker> getById(@PathVariable Long id) {
-        log.info("PORT = " + env.getProperty("local.server.port"));
         return ResponseEntity.ok(service.getById(id));
     }
 
