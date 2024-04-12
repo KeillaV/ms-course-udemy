@@ -8,3 +8,4 @@ Além da implementação recomendada no curso, foram aplicados conhecimentos obt
 - H2 Database
 - Ribbon Load Balancer
 - Eureka Server/Client
+- Hystrix
