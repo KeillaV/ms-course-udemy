@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "bffa2f69-1b75-4b74-9de7-108fa128cd48",
+		"name": "payments",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31967675"
+	},
+	"item": [
+		{
+			"name": "Get Payment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8765/hr-payroll/payments/2/days/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"hr-payroll",
+						"payments",
+						"2",
+						"days",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

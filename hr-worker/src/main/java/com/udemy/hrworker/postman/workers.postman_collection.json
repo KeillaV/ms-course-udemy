@@ -12,13 +12,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8001/workers/",
+					"raw": "http://localhost:8765/hr-worker/workers/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8001",
+					"port": "8765",
 					"path": [
+						"hr-worker",
 						"workers",
 						""
 					]
@@ -32,13 +33,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8001/workers/1",
+					"raw": "http://localhost:8765/hr-worker/workers/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8001",
+					"port": "8765",
 					"path": [
+						"hr-worker",
 						"workers",
 						"1"
 					]
@@ -61,13 +63,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8001/workers/",
+					"raw": "http://localhost:8765/hr-worker/workers/",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8001",
+					"port": "8765",
 					"path": [
+						"hr-worker",
 						"workers",
 						""
 					]
@@ -90,13 +93,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8001/workers/1",
+					"raw": "http://localhost:8765/hr-worker/workers/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8001",
+					"port": "8765",
 					"path": [
+						"hr-worker",
 						"workers",
 						"1"
 					]
@@ -110,13 +114,14 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8001/workers/3",
+					"raw": "http://localhost:8765/hr-worker/workers/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8001",
+					"port": "8765",
 					"path": [
+						"hr-worker",
 						"workers",
 						"3"
 					]
