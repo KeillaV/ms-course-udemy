@@ -9,3 +9,4 @@ Além da implementação recomendada no curso, foram aplicados conhecimentos obt
 - Ribbon Load Balancer
 - Eureka Server/Client
 - Hystrix
+- Zuul Api Gateway
